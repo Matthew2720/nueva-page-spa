@@ -182,7 +182,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Hero Section */
     .hero-section {
       padding: 4rem 0;
-      background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+      border-bottom: 1px solid var(--border-light);
     }
 
     .hero-content {
@@ -202,7 +203,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .hero-description {
       font-size: 1.125rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 2rem;
     }
@@ -217,10 +218,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       color: var(--color-primary);
       font-size: 1.125rem;
       margin-bottom: 0.5rem;
+      font-weight: 600;
     }
 
     .contact-item p {
-      color: var(--color-text);
+      color: var(--text-primary);
       font-size: 1rem;
       margin: 0;
     }
@@ -233,6 +235,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .contact-form-card {
       padding: 2rem;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
     }
 
     .contact-form {
@@ -249,24 +253,26 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .form-group label {
       font-weight: 600;
-      color: var(--color-text);
+      color: var(--text-primary);
       font-size: 0.875rem;
     }
 
     .form-input,
     .form-textarea {
       padding: 0.75rem;
-      border: 2px solid var(--color-border);
-      border-radius: var(--radius-md);
+      border: 2px solid var(--border-medium);
+      border-radius: 6px;
       font-size: 1rem;
       transition: border-color 0.3s ease;
       font-family: inherit;
+      background: var(--bg-primary);
     }
 
     .form-input:focus,
     .form-textarea:focus {
       outline: none;
       border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 15%, transparent);
     }
 
     .form-textarea {
@@ -281,7 +287,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Location Section */
     .location-section {
       padding: 4rem 0;
-      background: var(--color-surface);
+      background: var(--bg-accent);
     }
 
     .location-content {
@@ -299,7 +305,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     }
 
     .location-description {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 2rem;
     }
@@ -314,10 +320,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       color: var(--color-primary);
       font-size: 1.125rem;
       margin-bottom: 0.5rem;
+      font-weight: 600;
     }
 
     .location-item p {
-      color: var(--color-text);
+      color: var(--text-primary);
       line-height: 1.5;
       margin: 0;
     }
@@ -325,6 +332,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     .map-card {
       padding: 2rem;
       height: 300px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
     }
 
     .map-placeholder {
@@ -333,10 +342,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       align-items: center;
       justify-content: center;
       height: 100%;
-      background: var(--color-background);
-      border-radius: var(--radius-md);
-      color: var(--color-text-secondary);
+      background: var(--bg-primary);
+      border-radius: 8px;
+      color: var(--text-secondary);
       text-align: center;
+      border: 1px solid var(--border-light);
     }
 
     .map-placeholder p:first-child {
@@ -347,7 +357,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Philosophy Section */
     .philosophy-section {
       padding: 4rem 0;
-      background: var(--color-background);
+      background: var(--bg-primary);
     }
 
     .philosophy-content {
@@ -365,7 +375,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     }
 
     .philosophy-description {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 2rem;
     }
@@ -381,8 +391,14 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-md);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
+      transition: transform 0.3s ease;
+    }
+
+    .philosophy-img:hover {
+      transform: scale(1.02);
     }
 
     .contact-cta {
@@ -397,7 +413,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     }
 
     .mission-description {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
     }
 

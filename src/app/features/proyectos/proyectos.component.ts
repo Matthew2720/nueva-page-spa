@@ -188,14 +188,15 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       max-width: 600px;
       height: 400px;
       object-fit: cover;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-lg);
+      border-radius: 12px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
     }
 
     /* Features Section */
     .features-section {
       padding: 4rem 0;
-      background: var(--color-background);
+      background: var(--bg-primary);
     }
 
     .features-grid {
@@ -226,8 +227,14 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       width: 100%;
       height: 250px;
       object-fit: cover;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-md);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
+      transition: transform 0.3s ease;
+    }
+
+    .feature-img:hover {
+      transform: scale(1.02);
     }
 
     .feature-content {
@@ -238,10 +245,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       font-size: 1.25rem;
       color: var(--color-primary);
       margin-bottom: 1rem;
+      font-weight: 600;
     }
 
     .feature-description {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 1.5rem;
     }
@@ -253,7 +261,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Gallery Section */
     .gallery-section {
       padding: 4rem 0;
-      background: var(--color-surface);
+      background: var(--bg-accent);
     }
 
     .gallery-header {  
@@ -270,7 +278,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .gallery-description {
       font-size: 1.125rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
     }
 
     .gallery-grid {
@@ -282,14 +290,16 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     .gallery-item {
       position: relative;
       overflow: hidden;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-md);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 1px solid var(--border-light);
+      background: var(--bg-primary);
     }
 
     .gallery-item:hover {
       transform: translateY(-8px);
-      box-shadow: var(--shadow-lg);
+      box-shadow: 0 10px 15px color-mix(in srgb, var(--color-primary) 20%, transparent);
     }
 
     .gallery-img {
@@ -306,13 +316,15 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Testimonial Section */
     .testimonial-section {
       padding: 4rem 0;
-      background: var(--color-background);
+      background: var(--bg-primary);
     }
 
     .testimonial-card {
       max-width: 900px;
       margin: 0 auto;
       padding: 3rem;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
     }
 
     .testimonial-content {
@@ -331,7 +343,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       height: 80px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: var(--shadow-md);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 2px solid var(--border-light);
     }
 
     .testimonial-text {
@@ -340,7 +353,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .testimonial-quote {
       font-size: 1.125rem;
-      color: var(--color-text);
+      color: var(--text-primary);
       line-height: 1.6;
       margin-bottom: 1rem;
       font-style: italic;
@@ -353,7 +366,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     }
 
     .stars {
-      color: #fbbf24;
+      color: var(--color-warning);
       font-size: 1.25rem;
     }
 
@@ -367,7 +380,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: var(--radius-md);
+      border-radius: 8px;
+      border: 1px solid var(--border-light);
     }
 
     /* Responsive Design */

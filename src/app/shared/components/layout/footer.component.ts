@@ -157,8 +157,8 @@ import { FormsModule } from '@angular/forms';
   `,
   styles: [`
     .footer {
-      background: var(--bg-dark, #2c3e50);
-      color: var(--text-light, #ffffff);
+      background: var(--bg-dark);
+      color: var(--text-on-dark);
       margin-top: auto;
     }
 
@@ -182,25 +182,25 @@ import { FormsModule } from '@angular/forms';
     }
 
     .footer-logo h3 {
-      color: var(--brand-primary, #8B7355);
+      color: var(--meridian-moca);
       margin: 0 0 1rem 0;
       font-size: 1.75rem;
       font-weight: 500;
     }
 
     .company-description {
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 1.5rem;
       font-size: 0.95rem;
     }
 
     .footer-title {
-      color: var(--text-light, #ffffff);
+      color: var(--text-on-dark);
       margin: 0 0 1rem 0;
       font-size: 1.1rem;
       font-weight: 500;
-      border-bottom: 2px solid var(--brand-primary, #8B7355);
+      border-bottom: 2px solid var(--meridian-moca);
       padding-bottom: 0.5rem;
       display: inline-block;
     }
@@ -217,15 +217,15 @@ import { FormsModule } from '@angular/forms';
       justify-content: center;
       width: 40px;
       height: 40px;
-      background: var(--brand-primary, #8B7355);
-      color: var(--text-light, #ffffff);
+      background: var(--meridian-moca);
+      color: var(--text-on-dark);
       border-radius: 50%;
       text-decoration: none;
       transition: all 0.3s ease;
     }
 
     .social-link:hover {
-      background: var(--primary-brown-dark, #6d5a44);
+      background: var(--meridian-moca-700);
       transform: translateY(-2px);
     }
 
@@ -245,14 +245,14 @@ import { FormsModule } from '@angular/forms';
     }
 
     .footer-link {
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       text-decoration: none;
       transition: color 0.3s ease;
       font-size: 0.95rem;
     }
 
     .footer-link:hover {
-      color: var(--brand-primary, #8B7355);
+      color: var(--meridian-moca);
     }
 
     /* Contact Info */
@@ -266,12 +266,12 @@ import { FormsModule } from '@angular/forms';
       display: flex;
       align-items: center;
       gap: 0.75rem;
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       font-size: 0.95rem;
     }
 
     .contact-icon {
-      color: var(--brand-primary, #8B7355);
+      color: var(--meridian-moca);
     }
 
     .contact-link {
@@ -281,12 +281,12 @@ import { FormsModule } from '@angular/forms';
     }
 
     .contact-link:hover {
-      color: var(--brand-primary, #8B7355);
+      color: var(--meridian-moca);
     }
 
     /* Newsletter Section */
     .newsletter-section {
-      background: var(--bg-darker, #1a252f);
+      background: var(--bg-darker);
       margin: 0 -1rem;
       padding: 2rem 1rem;
       border-radius: 8px;
@@ -303,14 +303,14 @@ import { FormsModule } from '@angular/forms';
     }
 
     .newsletter-title {
-      color: var(--text-light, #ffffff);
+      color: var(--text-on-dark);
       margin: 0 0 0.5rem 0;
       font-size: 1.25rem;
       font-weight: 500;
     }
 
     .newsletter-description {
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       margin: 0;
       font-size: 0.95rem;
     }
@@ -329,25 +329,25 @@ import { FormsModule } from '@angular/forms';
 
     .newsletter-input ::ng-deep .mat-mdc-form-field-outline,
     .newsletter-input ::ng-deep .mat-mdc-text-field-wrapper {
-      background: var(--bg-primary, #ffffff);
+      background: var(--bg-primary);
       border-radius: 4px;
     }
 
     .newsletter-btn {
-      background: var(--brand-primary, #8B7355) !important;
-      color: var(--text-light, #ffffff) !important;
+      background: var(--meridian-moca) !important;
+      color: var(--text-on-dark) !important;
       height: 56px;
       padding: 0 1.5rem;
       white-space: nowrap;
     }
 
     .newsletter-btn:hover {
-      background: var(--primary-brown-dark, #6d5a44) !important;
+      background: var(--meridian-moca-700) !important;
     }
 
     /* Footer Bottom */
     .footer-bottom {
-      border-top: 1px solid var(--border-dark, #34495e);
+      border-top: 1px solid var(--border-dark);
       padding: 1.5rem 0;
     }
 
@@ -361,7 +361,7 @@ import { FormsModule } from '@angular/forms';
 
     .copyright {
       margin: 0;
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       font-size: 0.9rem;
     }
 
@@ -371,14 +371,14 @@ import { FormsModule } from '@angular/forms';
     }
 
     .footer-bottom-link {
-      color: var(--text-muted, #bdc3c7);
+      color: var(--text-secondary);
       text-decoration: none;
       font-size: 0.9rem;
       transition: color 0.3s ease;
     }
 
     .footer-bottom-link:hover {
-      color: var(--brand-primary, #8B7355);
+      color: var(--meridian-moca);
     }
 
     /* Responsive Design */
@@ -440,7 +440,7 @@ import { FormsModule } from '@angular/forms';
     .footer-link:focus,
     .contact-link:focus,
     .footer-bottom-link:focus {
-      outline: 2px solid var(--brand-primary, #8B7355);
+      outline: 2px solid var(--meridian-moca);
       outline-offset: 2px;
     }
 

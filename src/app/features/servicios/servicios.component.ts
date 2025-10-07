@@ -177,7 +177,8 @@ import { CardComponent } from '../../shared/components';
     /* Hero Section */
     .hero-section {
       padding: 4rem 0;
-      background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+      border-bottom: 1px solid var(--border-light);
     }
 
     .hero-content {
@@ -196,7 +197,7 @@ import { CardComponent } from '../../shared/components';
 
     .hero-description {
       font-size: 1.125rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 3rem;
     }
@@ -210,14 +211,15 @@ import { CardComponent } from '../../shared/components';
       max-width: 600px;
       height: 400px;
       object-fit: cover;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-lg);
+      border-radius: 12px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
     }
 
     /* Services Section */
     .services-section {
       padding: 4rem 0;
-      background: var(--color-background);
+      background: var(--bg-primary);
     }
 
     .services-grid {
@@ -237,8 +239,9 @@ import { CardComponent } from '../../shared/components';
       grid-column: 1 / -1;
       text-align: center;
       padding: 2rem;
-      background: var(--color-surface);
-      border-radius: var(--radius-lg);
+      background: var(--bg-accent);
+      border-radius: 12px;
+      border: 1px solid var(--border-light);
     }
 
     .service-content {
@@ -253,17 +256,18 @@ import { CardComponent } from '../../shared/components';
       font-size: 1.25rem;
       color: var(--color-primary);
       margin-bottom: 1rem;
+      font-weight: 600;
     }
 
     .service-subtitle {
       font-size: 1.125rem;
-      color: var(--color-text);
+      color: var(--text-primary);
       margin-bottom: 1rem;
       font-weight: 600;
     }
 
     .service-description {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
     }
 
@@ -282,14 +286,20 @@ import { CardComponent } from '../../shared/components';
       width: 100%;
       height: 200px;
       object-fit: cover;
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-md);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
+      transition: transform 0.3s ease;
+    }
+
+    .service-img:hover {
+      transform: scale(1.02);
     }
 
     /* Identity Section */
     .identity-section {
       padding: 4rem 0;
-      background: var(--color-surface);
+      background: var(--bg-accent);
     }
 
     .identity-content {
@@ -308,7 +318,7 @@ import { CardComponent } from '../../shared/components';
 
     .identity-description,
     .identity-mission {
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 2rem;
     }
@@ -323,20 +333,22 @@ import { CardComponent } from '../../shared/components';
     .feature h6 {
       color: var(--color-primary);
       font-size: 1.125rem;
+      font-weight: 600;
     }
 
     .identity-img {
       width: 100%;
       height: 400px;
       object-fit: cover;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow-lg);
+      border-radius: 12px;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--border-light);
     }
 
     /* Testimonials Section */
     .testimonials-section {
       padding: 4rem 0;
-      background: var(--color-background);
+      background: var(--bg-primary);
     }
 
     .testimonials-header {
@@ -353,7 +365,7 @@ import { CardComponent } from '../../shared/components';
 
     .testimonials-description {
       font-size: 1.125rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
     }
 
     .testimonials-grid {
@@ -364,6 +376,8 @@ import { CardComponent } from '../../shared/components';
 
     .testimonial-card {
       padding: 2rem;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-light);
     }
 
     .testimonial-content {
@@ -381,7 +395,8 @@ import { CardComponent } from '../../shared/components';
       height: 60px;
       border-radius: 50%;
       object-fit: cover;
-      box-shadow: var(--shadow-md);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: 2px solid var(--border-light);
     }
 
     .testimonial-text {
@@ -390,7 +405,7 @@ import { CardComponent } from '../../shared/components';
 
     .testimonial-quote {
       font-size: 1rem;
-      color: var(--color-text);
+      color: var(--text-primary);
       line-height: 1.6;
       margin-bottom: 1rem;
       font-style: italic;
@@ -404,12 +419,12 @@ import { CardComponent } from '../../shared/components';
 
     .testimonial-location {
       font-size: 0.875rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       margin-bottom: 0.5rem;
     }
 
     .stars {
-      color: #fbbf24;
+      color: var(--color-warning);
       font-size: 1rem;
     }
 
