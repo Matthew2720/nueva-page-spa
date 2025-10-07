@@ -180,3 +180,40 @@ $aspect-photo: 1.333; // 4/3
 $opacity-disabled: 0.5;
 $opacity-hover: 0.8;
 $opacity-overlay: 0.9;
+
+// ================================
+// CSS CUSTOM PROPERTIES
+// ================================
+
+:root {
+  // Brand Colors
+  --brand-primary: #{$brand-primary};
+  --brand-secondary: #{$brand-secondary};
+  --brand-accent: #{$brand-accent};
+  
+  // Primary Brown Variations
+  --primary-brown: #{$primary-brown};
+  --primary-brown-dark: #{$primary-brown-dark};
+  --primary-brown-light: #{$primary-brown-light};
+  
+  // Text Colors
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-muted: #{$text-muted};
+  --text-light: #{$text-white};
+  
+  // Background Colors
+  --bg-primary: #{$bg-primary};
+  --bg-secondary: #{$bg-secondary};
+  --bg-accent: #{$secondary-beige};
+  --bg-dark: #2c3e50;
+  --bg-darker: #1a252f;
+  
+  // Secondary Colors
+  --secondary-beige: #{$secondary-beige};
+  --secondary-cream: #{$secondary-cream};
+  
+  // Border Colors
+  --border-light: #{$secondary-beige};
+  --border-dark: #34495e;
+}

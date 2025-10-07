@@ -16,3 +16,6 @@
 - [x] Launch the Project ✅ Servidor corriendo en http://localhost:4201/
 
 - [x] Ensure Documentation is Complete ✅ README.md completo con instrucciones
+
+- [x] El inicio del proyecto es con npm start
+- [x] Recuerda que siempre puedes usar context7 para obtener más contexto sobre como usar tecnologias con las mejores practicas
