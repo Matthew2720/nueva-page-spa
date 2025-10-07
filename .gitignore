@@ -175,3 +175,6 @@ src/assets/images/media/VIDEOS COMERCIALES/
 
 # Keep optimized renders that are used directly
 !src/assets/images/media/renders/
+
+# Temporary extracted images folder
+src/assets/images/ilovepdf_images-extracted (1)/

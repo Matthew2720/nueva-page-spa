@@ -23,8 +23,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
               donde cada detalle cuenta y cada elección habla de ti.
             </p>
             <div class="hero-image">
-              <img src="assets/images/hero/la-estrella-hero-real.jpg" 
-                   alt="Proyecto La Estrella - Sala remodelada con diseño moderno" 
+              <img src="assets/images/extracted/projects/project-hero-1.jpg" 
+                   alt="Proyecto Meridian - Transformación de espacios únicos y modernos" 
                    class="hero-img">
             </div>
           </div>
@@ -435,20 +435,20 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 export class ProyectosComponent {
   projects = [
     {
-      image: 'assets/images/gallery/proyecto-real-1.jpg',
-      alt: 'Proyecto La Estrella - Vista general remodelada'
+      image: 'assets/images/extracted/projects/project-hero-2.jpg',
+      alt: 'Proyecto Meridian - Transformación de espacios únicos'
     },
     {
-      image: 'assets/images/gallery/proyecto-real-2.jpg',
-      alt: 'Proyecto La Estrella - Detalles de diseño'
+      image: 'assets/images/extracted/projects/project-hero-3.jpg',
+      alt: 'Proyecto Meridian - Diseño interior personalizado'
     },
     {
-      image: 'assets/images/hero/la-estrella-hero-real.jpg',
-      alt: 'Proyecto La Estrella - Sala remodelada con diseño moderno'
+      image: 'assets/images/extracted/projects/project-detail-1.jpg',
+      alt: 'Proyecto Meridian - Detalles de alta calidad'
     },
     {
-      image: 'assets/images/hero/cocina-moderna-hero.jpg',
-      alt: 'Proyecto La Estrella - Cocina moderna remodelada'
+      image: 'assets/images/extracted/projects/project-detail-2.jpg',
+      alt: 'Proyecto Meridian - Espacios modernos y acogedores'
     }
   ];
 }
