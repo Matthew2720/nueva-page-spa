@@ -87,10 +87,10 @@ import { FormsModule } from '@angular/forms';
           <div class="footer-section services-section">
             <h4 class="footer-title">Servicios</h4>
             <ul class="footer-links">
-              <li><a href="#" class="footer-link">Desarrollo Web</a></li>
-              <li><a href="#" class="footer-link">Aplicaciones Móviles</a></li>
-              <li><a href="#" class="footer-link">Consultoría IT</a></li>
-              <li><a href="#" class="footer-link">Mantenimiento</a></li>
+              <li><a href="#" class="footer-link">Diseño Interior</a></li>
+              <li><a href="#" class="footer-link">Remodelaciones</a></li>
+              <li><a href="#" class="footer-link">Consultoría Espacial</a></li>
+              <li><a href="#" class="footer-link">Proyectos Personalizados</a></li>
             </ul>
           </div>
 
@@ -100,15 +100,15 @@ import { FormsModule } from '@angular/forms';
             <div class="contact-info">
               <div class="contact-item">
                 <mat-icon class="contact-icon">location_on</mat-icon>
-                <span>Ciudad de México, México</span>
+                <span>Bello, Antioquia, Colombia</span>
               </div>
               <div class="contact-item">
                 <mat-icon class="contact-icon">phone</mat-icon>
-                <a href="tel:+525555551234" class="contact-link">+52 55 5555 1234</a>
+                <a href="tel:+573233311845" class="contact-link">+57 323 3311845</a>
               </div>
               <div class="contact-item">
                 <mat-icon class="contact-icon">email</mat-icon>
-                <a href="mailto:info@meridian.com" class="contact-link">info&#64;meridian.com</a>
+                <a href="mailto:contacto@meridian.com" class="contact-link">contacto&#64;meridian.com</a>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@ import { FormsModule } from '@angular/forms';
           <div class="newsletter-content">
             <h4 class="newsletter-title">Mantente Actualizado</h4>
             <p class="newsletter-description">
-              Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones.
+              Suscríbete a nuestro boletín para recibir inspiración de diseño y tips de decoración.
             </p>
           </div>
           <form class="newsletter-form" (ngSubmit)="onNewsletterSubmit()">

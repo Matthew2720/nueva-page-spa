@@ -18,9 +18,9 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
           <div class="hero-content">
             <h1 class="hero-title">Proyectos Únicos</h1>
             <p class="hero-description">
-              Creemos que el hogar es más que cuatro paredes, es el reflejo de quienes somos, 
-              nuestra misión es transformar esos espacios en ambientes únicos, modernos y cálidos, 
-              donde cada detalle cuenta y cada elección habla de ti
+              Creemos que el hogar es más que cuatro paredes, es el reflejo de quienes somos. 
+              Nuestra misión es transformar esos espacios en ambientes únicos, modernos y cálidos, 
+              donde cada detalle cuenta y cada elección habla de ti.
             </p>
             <div class="hero-image">
               <img src="assets/images/hero/la-estrella-hero-real.jpg" 
@@ -89,7 +89,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       <section class="gallery-section">
         <div class="container">
           <div class="gallery-header">
-            <h3 class="gallery-title">Galería Proyectos</h3>
+            <h3 class="gallery-title">Galería de Proyectos</h3>
             <p class="gallery-description">
               Espacios únicos que reflejan la identidad de cada cliente.
             </p>
