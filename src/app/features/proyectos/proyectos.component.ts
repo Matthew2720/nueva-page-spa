@@ -23,8 +23,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
               donde cada detalle cuenta y cada elección habla de ti
             </p>
             <div class="hero-image">
-              <img src="https://picsum.photos/600/400?random=10" 
-                   alt="brown wooden rectangular frame on white wall" 
+              <img src="assets/images/hero/la-estrella-hero-real.jpg" 
+                   alt="Proyecto La Estrella - Sala remodelada con diseño moderno" 
                    class="hero-img">
             </div>
           </div>
@@ -39,8 +39,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
             <!-- Diseño Personalizado -->
             <div class="feature-item">
               <div class="feature-image">
-                <img src="https://picsum.photos/500/250?random=11" 
-                     alt="green fabric padded sofa chair" 
+                <img src="assets/images/media/renders/cocina-moderna-render.png" 
+                     alt="Render 3D de cocina moderna con isla central" 
                      class="feature-img">
               </div>
               <div class="feature-content">
@@ -61,11 +61,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
             <!-- Estilo Moderno -->
             <div class="feature-item">
               <div class="feature-images">
-                <img src="https://picsum.photos/250/250?random=12" 
-                     alt="potted plants on table" 
+                <img src="assets/images/projects/la-estrella/before/sala-antes-real.jpg" 
+                     alt="Estado inicial de la sala antes de la remodelación" 
                      class="feature-img">
-                <img src="https://picsum.photos/250/250?random=13" 
-                     alt="black laptop computer on table" 
+                <img src="assets/images/projects/la-estrella/after/sala-despues-real.jpg" 
+                     alt="Sala completamente remodelada con diseño moderno" 
                      class="feature-img">
               </div>
               <div class="feature-content">
@@ -111,7 +111,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
           <app-card variant="elevated" class="testimonial-card">
             <div class="testimonial-content">
               <div class="testimonial-avatar">
-                <img src="https://picsum.photos/80/80?random=20" 
+                <img src="assets/images/testimonials/proyecto-testimonio-1.jpg" 
                      alt="Carlos Zuluaga" 
                      class="avatar-img">
               </div>
@@ -128,11 +128,11 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
             </div>
             
             <div class="testimonial-images">
-              <img src="https://picsum.photos/400/200?random=21" 
-                   alt="white wooden kitchen island and cupboard cabinets near glass panel door" 
+              <img src="assets/images/hero/cocina-moderna-hero.jpg" 
+                   alt="Cocina moderna remodelada del proyecto La Estrella" 
                    class="testimonial-img">
-              <img src="https://picsum.photos/400/200?random=22" 
-                   alt="living room" 
+              <img src="assets/images/gallery/proyecto-real-1.jpg" 
+                   alt="Sala remodelada proyecto La Estrella" 
                    class="testimonial-img">
             </div>
           </app-card>
@@ -420,20 +420,20 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 export class ProyectosComponent {
   projects = [
     {
-      image: 'https://picsum.photos/400/300?random=1',
-      alt: 'white and brown chairs beside wicker basket near white wall'
+      image: 'assets/images/gallery/proyecto-real-1.jpg',
+      alt: 'Proyecto La Estrella - Vista general remodelada'
     },
     {
-      image: 'https://picsum.photos/400/300?random=2',
-      alt: 'coffee table with basket beside sofa'
+      image: 'assets/images/gallery/proyecto-real-2.jpg',
+      alt: 'Proyecto La Estrella - Detalles de diseño'
     },
     {
-      image: 'https://picsum.photos/400/300?random=3',
-      alt: 'black leather chair with brown wooden frame in front of half table'
+      image: 'assets/images/hero/la-estrella-hero-real.jpg',
+      alt: 'Proyecto La Estrella - Sala remodelada con diseño moderno'
     },
     {
-      image: 'https://picsum.photos/400/300?random=4',
-      alt: 'gray padded chaise couch beside window'
+      image: 'assets/images/hero/cocina-moderna-hero.jpg',
+      alt: 'Proyecto La Estrella - Cocina moderna remodelada'
     }
   ];
 }

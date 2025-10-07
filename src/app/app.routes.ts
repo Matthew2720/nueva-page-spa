@@ -18,6 +18,10 @@ export const routes: Routes = [
     loadComponent: () => import('./features/contacto/contacto.component').then(m => m.ContactoComponent)
   },
   {
+    path: 'image-optimizer',
+    loadComponent: () => import('./features/image-optimizer/image-optimizer.component').then(m => m.ImageOptimizerComponent)
+  },
+  {
     path: '**',
     redirectTo: ''
   }

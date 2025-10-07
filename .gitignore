@@ -164,3 +164,14 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Original media files (large source files not used directly in web)
+src/assets/images/media/FOTOS ANTES PROYECTO 1 (LA ESTRELLA)/
+src/assets/images/media/FOTOS Y VIDEOS PROYECTO 1 (LA ESTRELLA)/
+src/assets/images/media/FOTOS Y VIDEOS PROYECTO 2 (CABAÑAS)/
+src/assets/images/media/MÁS RENDERS/
+src/assets/images/media/RENDERS PROYECTO 2/
+src/assets/images/media/VIDEOS COMERCIALES/
+
+# Keep optimized renders that are used directly
+!src/assets/images/media/renders/
