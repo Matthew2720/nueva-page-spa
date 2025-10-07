@@ -22,6 +22,14 @@ export const routes: Routes = [
     loadComponent: () => import('./features/image-optimizer/image-optimizer.component').then(m => m.ImageOptimizerComponent)
   },
   {
+    path: 'colors',
+    loadComponent: () => import('./shared/components/color-palette/color-palette.component').then(m => m.ColorPaletteComponent)
+  },
+  {
+    path: 'ux-demo',
+    loadComponent: () => import('./shared/components/ux-ui-demo/ux-ui-demo.component').then(m => m.UxUiDemoComponent)
+  },
+  {
     path: '**',
     redirectTo: ''
   }

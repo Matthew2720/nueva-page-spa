@@ -17,8 +17,11 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8fafc;
-  color: #334155;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  
+  // Transición suave para cambios de tema
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 img,

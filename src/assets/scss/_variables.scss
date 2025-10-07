@@ -1,36 +1,39 @@
 // ================================
-// MERIDIAN PROJECT - SCSS VARIABLES
+// MERIDIAN PROJECT - SCSS VARIABLES OPTIMIZADO
 // ================================
 
-// Colors - Based on meridianprojects.co analysis
-$primary-brown: #8B7355;
-$primary-brown-dark: #6d5a44;
-$primary-brown-light: #a18868;
+// Importar sistema de colores Meridian optimizado
+@import 'meridian-colors';
 
-$secondary-cream: #f8f9fa;
-$secondary-beige: #e9ecef;
-$secondary-warm-white: #ffffff;
+// COMPATIBILIDAD - Variables legacy (mantener para compatibilidad)
+$primary-brown: $primary;
+$primary-brown-dark: $primary-dark;
+$primary-brown-light: $primary-light;
 
-$accent-gold: #ffd700;
-$accent-warm-gray: #666666;
-$accent-light-gray: #888888;
+$secondary-cream: $bg-secondary;
+$secondary-beige: $neutral-light;
+$secondary-warm-white: $bg-primary;
 
-// Text Colors
-$text-primary: #333333;
-$text-secondary: #666666;
-$text-muted: #888888;
-$text-white: #ffffff;
+$accent-gold: $warning; // Reemplazado por color más armonioso
+$accent-warm-gray: $text-secondary;
+$accent-light-gray: $text-tertiary;
 
-// Background Colors
-$bg-primary: #ffffff;
-$bg-secondary: #f8f9fa;
-$bg-gradient-start: #f8f9fa;
-$bg-gradient-end: #e9ecef;
+// Text Colors (actualizados)
+$text-primary: $text-primary;
+$text-secondary: $text-secondary;
+$text-muted: $text-tertiary;
+$text-white: $text-inverse;
 
-// Brand Colors
-$brand-primary: $primary-brown;
-$brand-secondary: $secondary-cream;
-$brand-accent: $accent-gold;
+// Background Colors (actualizados)
+$bg-primary: $bg-primary;
+$bg-secondary: $bg-secondary;
+$bg-gradient-start: $bg-secondary;
+$bg-gradient-end: $bg-tertiary;
+
+// Brand Colors (actualizados con sistema Meridian)
+$brand-primary: $primary;
+$brand-secondary: $secondary;
+$brand-accent: $secondary;
 
 // ================================
 // TYPOGRAPHY
@@ -185,35 +188,34 @@ $opacity-overlay: 0.9;
 // CSS CUSTOM PROPERTIES
 // ================================
 
+// CSS Custom Properties ya están definidas en _meridian-colors.scss
+// Aquí solo mantenemos compatibilidad legacy
+
 :root {
-  // Brand Colors
-  --brand-primary: #{$brand-primary};
-  --brand-secondary: #{$brand-secondary};
-  --brand-accent: #{$brand-accent};
+  // LEGACY SUPPORT - Variables de compatibilidad
+  --brand-primary: var(--color-primary);
+  --brand-secondary: var(--color-secondary);
+  --brand-accent: var(--color-secondary);
   
-  // Primary Brown Variations
-  --primary-brown: #{$primary-brown};
-  --primary-brown-dark: #{$primary-brown-dark};
-  --primary-brown-light: #{$primary-brown-light};
+  // Primary Brown Variations (legacy)
+  --primary-brown: var(--moca-500);
+  --primary-brown-dark: var(--moca-700);
+  --primary-brown-light: var(--moca-300);
   
-  // Text Colors
-  --text-primary: #{$text-primary};
-  --text-secondary: #{$text-secondary};
-  --text-muted: #{$text-muted};
-  --text-light: #{$text-white};
+  // Text Colors (legacy)
+  --text-muted: var(--text-tertiary);
+  --text-light: var(--text-inverse);
   
-  // Background Colors
-  --bg-primary: #{$bg-primary};
-  --bg-secondary: #{$bg-secondary};
-  --bg-accent: #{$secondary-beige};
-  --bg-dark: #2c3e50;
-  --bg-darker: #1a252f;
+  // Background Colors (legacy)
+  --bg-accent: var(--bg-accent);
+  --bg-dark: #{$negro-800};
+  --bg-darker: #{$negro-900};
   
-  // Secondary Colors
-  --secondary-beige: #{$secondary-beige};
-  --secondary-cream: #{$secondary-cream};
+  // Secondary Colors (legacy)
+  --secondary-beige: var(--beige-400);
+  --secondary-cream: var(--beige-50);
   
-  // Border Colors
-  --border-light: #{$secondary-beige};
-  --border-dark: #34495e;
+  // Border Colors (legacy)
+  --border-light: var(--border-light);
+  --border-dark: var(--border-strong);
 }

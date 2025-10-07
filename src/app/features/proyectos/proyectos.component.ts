@@ -154,7 +154,8 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     /* Hero Section */
     .hero-section {
       padding: 4rem 0;
-      background: linear-gradient(135deg, var(--color-background) 0%, var(--color-surface) 100%);
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+      border-bottom: 1px solid var(--border-light);
     }
 
     .hero-content {
@@ -173,7 +174,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
 
     .hero-description {
       font-size: 1.125rem;
-      color: var(--color-text-secondary);
+      color: var(--text-secondary);
       line-height: 1.6;
       margin-bottom: 3rem;
     }

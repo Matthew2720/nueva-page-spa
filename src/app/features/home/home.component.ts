@@ -81,26 +81,27 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
       text-align: center;
       margin: 0 2rem 4rem 2rem;
       padding: 4rem 2rem;
-      background: linear-gradient(135deg, var(--bg-secondary, #f8f9fa) 0%, var(--secondary-beige, #e9ecef) 100%);
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
       border-radius: 12px;
+      border: 1px solid var(--border-light);
     }
     
     .hero h1 {
       font-size: 3rem;
       margin-bottom: 1rem;
-      font-weight: 500;
-      color: var(--text-primary, #333);
+      font-weight: 600;
+      color: var(--color-primary);
     }
     
     .subtitle {
       font-size: 1.25rem;
-      color: var(--text-secondary, #666);
+      color: var(--text-secondary);
       margin-bottom: 0.5rem;
     }
     
     .description {
       font-size: 1rem;
-      color: var(--text-muted, #888);
+      color: var(--text-tertiary);
       margin-bottom: 2rem;
     }
     
@@ -111,7 +112,7 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     .rating {
       margin-top: 1rem;
       font-size: 1.5rem;
-      color: var(--brand-accent, #ffd700);
+      color: var(--color-warning);
     }
     
     /* Features Section */
@@ -129,9 +130,9 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     }
     
     .page-navigation h2 {
-      color: var(--text-primary, #333);
+      color: var(--color-primary);
       margin-bottom: 2rem;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 2rem;
     }
     
@@ -144,29 +145,31 @@ import { ButtonComponent, CardComponent } from '../../shared/components';
     .nav-card {
       display: block;
       text-decoration: none;
-      background: linear-gradient(135deg, var(--brand-primary, #8B7355) 0%, var(--primary-brown-dark, #6d5a44) 100%);
-      color: var(--text-light, #ffffff);
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+      color: var(--text-inverse);
       padding: 2rem;
       border-radius: 12px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 6px rgba(139, 115, 85, 0.2);
+      box-shadow: 0 4px 6px color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border: 1px solid var(--color-primary);
     }
     
     .nav-card:hover {
       transform: translateY(-4px);
       text-decoration: none;
-      color: var(--text-light, #ffffff);
-      box-shadow: 0 8px 25px rgba(139, 115, 85, 0.3);
+      color: var(--text-inverse);
+      box-shadow: 0 8px 25px color-mix(in srgb, var(--color-primary) 30%, transparent);
+      background: linear-gradient(135deg, var(--color-primary-hover) 0%, var(--color-primary-active) 100%);
     }
     
     .nav-card h3 {
       margin-bottom: 0.5rem;
       font-size: 1.5rem;
-      font-weight: 500;
+      font-weight: 600;
     }
     
     .nav-card p {
-      opacity: 0.9;
+      opacity: 0.95;
       margin: 0;
       line-height: 1.5;
     }
