@@ -1,0 +1,29 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Vertical Meridian -->
+  <!-- Símbolo geométrico inspirado en meridiano -->
+  <g transform="translate(35, 15)">
+    <!-- Círculo principal -->
+    <circle cx="25" cy="25" r="23" stroke="#96665C" stroke-width="2.5" fill="none"/>
+    <!-- Línea meridiana vertical -->
+    <line x1="25" y1="2" x2="25" y2="48" stroke="#96665C" stroke-width="2.5"/>
+    <!-- Línea meridiana horizontal -->
+    <line x1="2" y1="25" x2="48" y2="25" stroke="#9BBCD0" stroke-width="2"/>
+    <!-- Punto central -->
+    <circle cx="25" cy="25" r="3" fill="#96665C"/>
+    <!-- Elementos decorativos -->
+    <circle cx="25" cy="8" r="1.5" fill="#9BBCD0"/>
+    <circle cx="25" cy="42" r="1.5" fill="#9BBCD0"/>
+    <circle cx="8" cy="25" r="1.5" fill="#D0CEC2"/>
+    <circle cx="42" cy="25" r="1.5" fill="#D0CEC2"/>
+  </g>
+  
+  <!-- Texto MERIDIAN -->
+  <text x="60" y="85" font-family="'Arial', sans-serif" font-size="16" font-weight="500" fill="#000000" letter-spacing="2px" text-anchor="middle">
+    MERIDIAN
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="60" y="100" font-family="'Arial', sans-serif" font-size="8" font-weight="300" fill="#96665C" letter-spacing="1px" text-anchor="middle">
+    DISEÑO INTERIOR
+  </text>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Proyecto 1: Diseño Interior Moderno -->
+  <defs>
+    <linearGradient id="modernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D0CEC2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9BBCD0;stop-opacity:0.8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="url(#modernGradient)"/>
+  
+  <!-- Elementos arquitectónicos -->
+  <!-- Pared principal -->
+  <rect x="50" y="80" width="300" height="180" fill="#96665C" opacity="0.8"/>
+  
+  <!-- Ventana -->
+  <rect x="100" y="120" width="80" height="100" fill="#9BBCD0" opacity="0.6"/>
+  <rect x="105" y="125" width="70" height="90" fill="#D0CEC2" opacity="0.3"/>
+  
+  <!-- Muebles modernos -->
+  <rect x="220" y="180" width="100" height="60" fill="#96665C" rx="5"/>
+  <rect x="240" y="170" width="60" height="10" fill="#D0CEC2" rx="2"/>
+  
+  <!-- Plantas decorativas -->
+  <ellipse cx="320" cy="240" rx="15" ry="20" fill="#9BBCD0" opacity="0.7"/>
+  <rect x="315" y="240" width="10" height="15" fill="#96665C" opacity="0.5"/>
+  
+  <!-- Logo marca de agua -->
+  <g transform="translate(320, 20)" opacity="0.3">
+    <circle cx="15" cy="15" r="12" stroke="#96665C" stroke-width="1" fill="none"/>
+    <line x1="15" y1="3" x2="15" y2="27" stroke="#96665C" stroke-width="1"/>
+    <line x1="3" y1="15" x2="27" y2="15" stroke="#9BBCD0" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Texto overlay -->
+  <rect x="0" y="250" width="400" height="50" fill="#000000" opacity="0.7"/>
+  <text x="20" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#D0CEC2">
+    Diseño Interior Moderno
+  </text>
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="12" fill="#9BBCD0">
+    Espacios funcionales y elegantes
+  </text>
+</svg>

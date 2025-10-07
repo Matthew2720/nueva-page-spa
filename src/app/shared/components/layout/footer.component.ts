@@ -27,11 +27,16 @@ import { FormsModule } from '@angular/forms';
           <!-- Company Info -->
           <div class="footer-section company-section">
             <div class="footer-logo">
-              <h3>Meridian</h3>
+              <img 
+                src="assets/images/logos/meridian-logo-vertical.svg" 
+                alt="Meridian - Diseño Interior" 
+                class="footer-logo-image"
+                width="120" 
+                height="120">
             </div>
             <p class="company-description">
-              Transformando ideas en soluciones digitales innovadoras. 
-              Especializados en desarrollo web, aplicaciones móviles y consultoría tecnológica.
+              En Meridian transformamos espacios en ambientes modernos y personalizados, accesibles para todos. 
+              Creemos que el hogar de tus sueños puede ser una realidad con materiales impecables y opciones flexibles.
             </p>
             <div class="social-links">
               <a 
@@ -181,11 +186,19 @@ import { FormsModule } from '@angular/forms';
       flex-direction: column;
     }
 
-    .footer-logo h3 {
-      color: var(--meridian-moca);
-      margin: 0 0 1rem 0;
-      font-size: 1.75rem;
-      font-weight: 500;
+    .footer-logo {
+      margin-bottom: 1rem;
+    }
+
+    .footer-logo-image {
+      height: 80px;
+      width: auto;
+      opacity: 0.9;
+      transition: opacity 0.3s ease;
+    }
+
+    .footer-logo-image:hover {
+      opacity: 1;
     }
 
     .company-description {

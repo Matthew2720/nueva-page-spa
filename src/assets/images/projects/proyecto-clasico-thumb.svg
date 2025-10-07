@@ -1,0 +1,46 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Proyecto 2: Remodelación Clásica -->
+  <defs>
+    <linearGradient id="classicoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#96665C;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#D0CEC2;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="url(#classicoGradient)"/>
+  
+  <!-- Elementos clásicos -->
+  <!-- Columnas -->
+  <rect x="80" y="60" width="15" height="180" fill="#D0CEC2" opacity="0.8"/>
+  <rect x="120" y="60" width="15" height="180" fill="#D0CEC2" opacity="0.8"/>
+  <rect x="160" y="60" width="15" height="180" fill="#D0CEC2" opacity="0.8"/>
+  
+  <!-- Arcos -->
+  <path d="M80 80 Q105 60 120 80" stroke="#9BBCD0" stroke-width="3" fill="none"/>
+  <path d="M120 80 Q145 60 160 80" stroke="#9BBCD0" stroke-width="3" fill="none"/>
+  
+  <!-- Piso de mármol -->
+  <rect x="50" y="220" width="300" height="30" fill="#D0CEC2" opacity="0.6"/>
+  <rect x="60" y="225" width="280" height="20" fill="#9BBCD0" opacity="0.3"/>
+  
+  <!-- Mobiliario clásico -->
+  <ellipse cx="280" cy="180" rx="40" ry="25" fill="#96665C" opacity="0.7"/>
+  <rect x="260" y="170" width="40" height="10" fill="#D0CEC2" opacity="0.8"/>
+  
+  <!-- Logo marca de agua -->
+  <g transform="translate(320, 20)" opacity="0.4">
+    <circle cx="15" cy="15" r="12" stroke="#96665C" stroke-width="1.5" fill="none"/>
+    <line x1="15" y1="3" x2="15" y2="27" stroke="#96665C" stroke-width="1.5"/>
+    <line x1="3" y1="15" x2="27" y2="15" stroke="#9BBCD0" stroke-width="1"/>
+  </g>
+  
+  <!-- Texto overlay -->
+  <rect x="0" y="250" width="400" height="50" fill="#000000" opacity="0.7"/>
+  <text x="20" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#D0CEC2">
+    Remodelación Clásica
+  </text>
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="12" fill="#9BBCD0">
+    Elegancia atemporal y sofisticación
+  </text>
+</svg>

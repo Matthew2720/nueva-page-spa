@@ -23,7 +23,12 @@ import { filter } from 'rxjs/operators';
         <div class="logo-section">
           <a routerLink="/" class="logo-link">
             <div class="logo">
-              <h2>Meridian</h2>
+              <img 
+                src="assets/images/logos/meridian-logo-horizontal.svg" 
+                alt="Meridian - Diseño Interior" 
+                class="logo-image"
+                width="160" 
+                height="48">
             </div>
           </a>
         </div>
@@ -154,16 +159,19 @@ import { filter } from 'rxjs/operators';
       display: block;
     }
 
-    .logo h2 {
-      color: var(--color-primary);
-      margin: 0;
-      font-weight: 600;
-      font-size: 1.75rem;
-      transition: color 0.3s ease;
+    .logo {
+      display: flex;
+      align-items: center;
     }
 
-    .logo-link:hover .logo h2 {
-      color: var(--color-primary-hover);
+    .logo-image {
+      height: 48px;
+      width: auto;
+      transition: opacity 0.3s ease;
+    }
+
+    .logo-link:hover .logo-image {
+      opacity: 0.8;
     }
 
     /* Desktop Navigation */

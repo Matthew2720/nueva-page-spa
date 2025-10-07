@@ -1,0 +1,18 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Isotipo/Símbolo Meridian -->
+  <g transform="translate(5, 5)">
+    <!-- Círculo principal -->
+    <circle cx="25" cy="25" r="23" stroke="#96665C" stroke-width="3" fill="none"/>
+    <!-- Línea meridiana vertical -->
+    <line x1="25" y1="2" x2="25" y2="48" stroke="#96665C" stroke-width="3"/>
+    <!-- Línea meridiana horizontal -->
+    <line x1="2" y1="25" x2="48" y2="25" stroke="#9BBCD0" stroke-width="2.5"/>
+    <!-- Punto central -->
+    <circle cx="25" cy="25" r="4" fill="#96665C"/>
+    <!-- Elementos decorativos en los puntos cardinales -->
+    <circle cx="25" cy="7" r="2" fill="#9BBCD0"/>
+    <circle cx="25" cy="43" r="2" fill="#9BBCD0"/>
+    <circle cx="7" cy="25" r="2" fill="#D0CEC2"/>
+    <circle cx="43" cy="25" r="2" fill="#D0CEC2"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Proyecto 3: Apartamento Minimalista -->
+  <defs>
+    <linearGradient id="minimalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9BBCD0;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#D0CEC2;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="url(#minimalGradient)"/>
+  
+  <!-- Elementos minimalistas -->
+  <!-- Líneas limpias -->
+  <rect x="100" y="100" width="200" height="2" fill="#96665C" opacity="0.8"/>
+  <rect x="150" y="50" width="2" height="200" fill="#96665C" opacity="0.8"/>
+  
+  <!-- Espacios abiertos -->
+  <rect x="80" y="120" width="240" height="100" fill="#D0CEC2" opacity="0.3"/>
+  
+  <!-- Mobiliario minimalista -->
+  <rect x="200" y="160" width="80" height="40" fill="#96665C" opacity="0.6" rx="2"/>
+  <rect x="120" y="180" width="60" height="20" fill="#9BBCD0" opacity="0.5" rx="1"/>
+  
+  <!-- Elementos geométricos -->
+  <circle cx="300" cy="120" r="20" stroke="#96665C" stroke-width="2" fill="none" opacity="0.6"/>
+  <rect x="90" y="180" width="20" height="20" fill="#9BBCD0" opacity="0.4"/>
+  
+  <!-- Logo marca de agua -->
+  <g transform="translate(320, 20)" opacity="0.3">
+    <circle cx="15" cy="15" r="12" stroke="#96665C" stroke-width="1" fill="none"/>
+    <line x1="15" y1="3" x2="15" y2="27" stroke="#96665C" stroke-width="1"/>
+    <line x1="3" y1="15" x2="27" y2="15" stroke="#9BBCD0" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Texto overlay -->
+  <rect x="0" y="250" width="400" height="50" fill="#000000" opacity="0.7"/>
+  <text x="20" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#D0CEC2">
+    Apartamento Minimalista
+  </text>
+  <text x="20" y="290" font-family="Arial, sans-serif" font-size="12" fill="#9BBCD0">
+    Simplicidad y funcionalidad perfecta
+  </text>
+</svg>
